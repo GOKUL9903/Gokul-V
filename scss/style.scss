@@ -47,6 +47,7 @@ body {
 a {
 	transition: .3s all ease;
 	color: $primary;
+	target-name: _blank;
 	&:hover, &:focus {
 		text-decoration: none;
 		color: $primary;
@@ -426,7 +427,7 @@ h1, h2, h3, h4, h5,
 				.one-third{
 					width: 60%;
 					position: relative;
-					// height: 650px;
+					// height: 80%;
 					z-index: -1;
 					.overlay{
 						position: absolute;
